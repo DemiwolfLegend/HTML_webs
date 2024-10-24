@@ -1,0 +1,23 @@
+{
+  "name": "html-css-natoursgroup",
+  "version": "1.0.0",
+  "description": "A webpage to learn HTML, CSS and SASS as well.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile":"node-sass ./sass/main.scss ./style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemiwolfLegend/HTML-CSS-natoursGroup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DemiwolfLegend/HTML-CSS-natoursGroup/issues"
+  },
+  "homepage": "https://github.com/DemiwolfLegend/HTML-CSS-natoursGroup#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
